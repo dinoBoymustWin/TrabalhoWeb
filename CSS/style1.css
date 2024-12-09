@@ -1,0 +1,85 @@
+/* Resetando o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+
+
+/* Seções */
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section#sobre {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+section#livros {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+ul li strong {
+    color: #e74c3c;
+}
